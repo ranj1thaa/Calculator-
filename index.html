@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Style.css ">
+</head>
+<body>
+  <div class="container">
+    <input type="text" name="display" class="display" onclick="">
+  <button class="btnAC"  onclick="
+    let display=document.querySelector('.display');
+    pressed=0;
+    display.value=pressed;
+    ">AC
+  </button>
+  <button class="button"  onclick="
+    numPresses('%');
+    ">%
+  </button>
+  <button class="button"  onclick="
+    numPresses('/');
+   ">/
+  </button>
+  <button class="button" onclick="
+    numPresses(7);
+    ">7
+  </button>
+  <button class="button" onclick="
+    numPresses(8)
+    ">8
+    </button>
+  <button class="button" onclick="
+    numPresses(9)
+    ">9
+  </button>
+  <button class="button"  onclick="
+      numPresses('*');
+      ">*
+    </button>
+    <button class="button" onclick="
+    numPresses(4);
+    ">4
+  </button>
+  <button class="button" onclick="
+    numPresses(5);
+    ">5
+  </button>
+  <button class="button" onclick="
+    numPresses(6);
+    ">6
+  </button>
+  <button class="button"  onclick="
+    numPresses('-');
+    ">-
+  </button>
+  <button class="button" onclick="
+    numPresses(1)
+    ">1
+  </button>
+  <button class="button" onclick="
+    numPresses(2);
+    ">2
+  </button>
+  <button class="button" onclick="
+    numPresses(3);
+    ">3
+  </button>
+  <button class="button" onclick="
+    numPresses('+');
+    ">+
+  </button>
+  <button class="button" onclick="
+    numPresses('0')
+    ">O
+  </button>
+  <button class="button"  onclick="
+    numPresses('.');
+    ">.
+  </button>
+  <button class="btnEql"  onclick="
+    let display=document.querySelector('.display');
+    pressed=eval(pressed);
+    display.value=pressed;
+    ">=
+  </button>
+</div>
+
+
+   <script src="Script.js"> 
+   </script>
+</body>
+</html>
 
