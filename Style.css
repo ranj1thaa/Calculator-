@@ -1,1 +1,84 @@
+*{
+  margin:0px;
+  padding:0px;
+  background-color: black;
+  color:white;
+}
+body{
+  width:330px;
+  height:450px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 300px;
+  margin-top:100px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.div{
+  width:300px;
+  height:600px;
+}
+
+.display{
+  color:white;
+  font-size: 22px;
+  background-color: black;
+  border: none;
+  width:300px;
+  height:80px;
+  padding-left: 20px; 
+  border: 1px solid brown;
+  margin-left: 3px;
+  border-radius: 8px;
+}
+.button{
+  width:70px;
+  height:65px;
+  font-size: 19px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-top:10px;
+}
+.button:hover{
+  font-size: 20px;
+  background-color:grey;
+}
+.button:active{
+  background-color: #f8edeb;
+  color: black;
+}
+.btnAC{
+  width:150px;
+  height:65px;
+  font-size: 19px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.btnAC:hover{
+  font-size: 20px;
+  background-color:grey;
+}
+.btnAC:active{
+  background-color: #f8edeb;
+  color: black;
+}
+.btnEql{
+  width:150px;
+  height:65px;
+  font-size: 19px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.btnEql:hover{
+  font-size: 20px;
+  background-color:grey;
+}
+.btnEql:active{
+  background-color: #ffaa00;
+  color: black;
+}
+
+ 
 
